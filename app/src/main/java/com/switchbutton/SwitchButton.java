@@ -277,6 +277,7 @@ public class SwitchButton extends View {
 
             //再画圆
             canvas.drawCircle(c2ocenterX, c2ocenterY, circleRadius, circlePaint);
+            //打开到关闭状态
         } else if (mcurrentState == State.OPEN2CLOSE) {
             RectF rectF = new RectF(padding, padding, mwidth - padding, mheight - padding);
             //先画背景
