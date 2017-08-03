@@ -3,7 +3,7 @@
 
  陷入自定义view的坑越陷越深，励志要把自定义view撸给遍，今天给大家介绍一下自定义view————开关button，这个在很多app中都能用的，废话不多说，先来给动图。
  
- ![效果图](/images/switchbutton.gif)
+ ![效果图](https://user-gold-cdn.xitu.io/2017/8/3/04b1a811008d7941886ed832c81ec51f)
  
  分析一下上面的效果：四个状态：关闭状态、关闭->打开过程、打开状态、打开->关闭过程，结合ValueAnimator动效实现这个过程
  
