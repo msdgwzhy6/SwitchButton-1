@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchButton">
+        <attr name="backgroudColor" format="color"/>
+        <attr name="closeColor" format="color"/>
+        <attr name="openColor" format="color"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="animatorTime" format="integer"/>
+        <attr name="padding" format="integer"/>
+    </declare-styleable>
+</resources>

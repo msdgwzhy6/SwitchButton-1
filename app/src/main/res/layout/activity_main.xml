@@ -4,11 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.switchbutton.MainActivity">
 
     <com.switchbutton.SwitchButton
         android:id="@+id/btn"
         android:layout_width="200dp"
         android:layout_height="60dp" />
+
+    <com.switchbutton.SwitchButton
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:closeColor="@color/colorAccent"
+        app:openColor="@android:color/holo_green_light"
+        app:padding="6"
+        app:animatorTime="1000"
+        />
+
+    <com.switchbutton.SwitchButton
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        />
 
 </LinearLayout>
